@@ -1,0 +1,11 @@
+old_sound_rabbit_mq:
+  connections:
+    default:
+      url: 'amqp://guest:guest@localhost:5672'
+      # other connection options...
+  consumers:
+    user_consumer:
+      connection: default
+      exchange_options: { name: 'userQueue', type: fanout }
+      queue_options: { name: 'userQueue' }
+      callback: 'user_consumer_service'

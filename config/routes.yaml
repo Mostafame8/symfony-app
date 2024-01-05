@@ -1,0 +1,4 @@
+list_users:
+  path: /users
+  controller: App\Controller\UserController::listUsers
+  methods: GET
