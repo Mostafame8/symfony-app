@@ -6,7 +6,7 @@ This Symfony application serves as a consumer for processing user information fr
 
 Before you begin, make sure you have the following installed on your machine:
 
-- [PHP](https://www.php.net/)
+- [PHP version 7.4.33](https://www.php.net/)
 - [Composer](https://getcomposer.org/)
 - [RabbitMQ Server](https://www.rabbitmq.com/)
 - [Symfony CLI](https://symfony.com/download)
@@ -18,10 +18,14 @@ Before you begin, make sure you have the following installed on your machine:
    ```bash
    git clone https://github.com/Mostafame8/symfony-app.git
 
+   ```
+
 2. **Install dependencies:**
 
    ```bash
    composer install
+
+   ```
 
 3. **Configure RabbitMQ:**
 
@@ -33,15 +37,16 @@ Before you begin, make sure you have the following installed on your machine:
    ```bash
    symfony serve
 
-4. **Run Comsumer:**
+   ```
+
+5. **Run Comsumer:**
 
    ```bash
    php bin/console rabbitmq:consumer user_consumer
-   
-5. **Monitoring:**
+
+   ```
+
+6. **Monitoring:**
 
 - You can monitor the RabbitMQ queue status, including messages in progress and processed messages, through the RabbitMQ Management Plugin.
 - Access the RabbitMQ Management UI at http://localhost:15672/ (default credentials: guest/guest).
-   
-   
-   
