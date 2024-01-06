@@ -20,6 +20,9 @@
     "symfony/twig-bundle": "5.4.*",
     "symfony/yaml": "5.4.*"
   },
+  "engines": {
+    "php": "7.4.*"
+  },
   "config": {
     "allow-plugins": {
       "composer/package-versions-deprecated": true,
