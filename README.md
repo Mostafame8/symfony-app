@@ -18,24 +18,20 @@ Before you begin, make sure you have the following installed on your machine:
    ```bash
    git clone https://github.com/Mostafame8/symfony-app.git
 
-
 2. **Install dependencies:**
 
    ```bash
    composer install
-
 
 3. **Configure RabbitMQ:**
 
 - Make sure your RabbitMQ server is running.
 - Update the RABBITMQ_URL variable in the .env file if your RabbitMQ server is not running on amqp://guest:guest@localhost:5672/.
 
-
 4. **Run Symfony application:**
 
    ```bash
    symfony serve
-
 
 5. **Monitoring:**
 
