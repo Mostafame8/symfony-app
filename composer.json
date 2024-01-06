@@ -5,7 +5,6 @@
   "prefer-stable": true,
   "require": {
     "php": "7.4.33",
-    "ext-heroku": "*",
     "ext-ctype": "*",
     "ext-iconv": "*",
     "doctrine/annotations": "^2.0",
