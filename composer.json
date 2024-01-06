@@ -4,7 +4,7 @@
   "minimum-stability": "stable",
   "prefer-stable": true,
   "require": {
-    "php": "7.4.*",
+    "php": "7.4.33",
     "ext-heroku": "*",
     "ext-ctype": "*",
     "ext-iconv": "*",
@@ -22,11 +22,11 @@
     "symfony/yaml": "5.4.*"
   },
   "engines": {
-    "php": "7.4.*"
+    "php": "7.4.33"
   },
   "config": {
     "platform": {
-      "php": "7.4.*"
+      "php": "7.4.33"
     },
     "allow-plugins": {
       "composer/package-versions-deprecated": true,
