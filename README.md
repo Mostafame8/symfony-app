@@ -33,6 +33,11 @@ Before you begin, make sure you have the following installed on your machine:
    ```bash
    symfony serve
 
+4. **Run Comsumer:**
+
+   ```bash
+   php bin/console rabbitmq:consumer user_consumer
+   
 5. **Monitoring:**
 
 - You can monitor the RabbitMQ queue status, including messages in progress and processed messages, through the RabbitMQ Management Plugin.
